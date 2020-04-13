@@ -1,0 +1,155 @@
+html{
+    zoom: 0.7;
+    -moz-transform: cover;
+    -webkit-transform: cover;
+    -o-backgroud-size: cover;
+    background-size: cover;
+}
+header{
+    background: linear-gradient(45deg, #a02a2a, #a02a2a);
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 40px 30px 20px 30px;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+}
+#homelink{
+    color: white;
+}
+#botoes{
+    padding: 15px;
+    text-align-last: center;
+}
+#botoes:hover{
+    padding: 15px;
+    text-align-last: center;
+}
+#hrespecial{
+    opacity: 0;
+    }
+    #page{
+    display: flex;
+    margin: 20px;
+    }
+    #profileID{
+    flex: 1;
+    }
+    #curriculum{
+    margin: px;
+    flex: 3;
+    }
+    button a{
+        color: #a02a2a;
+    }
+    img{
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        position: center;
+    }
+    .posit1{
+        flex: 1;
+        text-align: center;
+        border-right: whitesmoke;
+    }
+    .parag{
+        text-size: 1000px;
+    }
+    .button{
+        background-color: rgb(88, 1, 1);
+        border:none;
+        color: rgb(87, 1, 1);
+        padding: 26px 62px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+        outline: none;
+        }
+        .button1{
+        background-color: rgb(255, 255, 255);   
+        color:rgb(88, 0, 0);
+        border: 4px solid rgb(131, 0, 0);
+        border-radius: 10px;
+        }
+        .button1:hover{
+        background-color:whitesmoke;
+        color:rgb(255, 255, 255);
+    }
+    hr{
+    border: 0.5px solid rgb(165,42,42);
+    margin: 0px 20px 0px 20px;
+    position: static;
+    }
+    .horizontal{
+    border: 1px solid rgb(165,42,42);
+    margin: 0px 30px 0px 30px;
+    }
+    #dadospessoais{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    }
+    p{
+        font-size: 20px;
+    }
+    b{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        text-align: left;
+    }
+    i{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: left;
+    }
+    .Menu{
+    font-weight: 500px;
+    text-align: left;
+    }
+    .Educ{
+    font-weight: 5px bold;
+    font-size: 20px;
+    text-align: left;
+    }
+    .descricao{
+    font-weight: 500;
+    font-size: 30px;
+    font-weight: bold;
+    }
+    footer{
+        color: #000000;
+        font-size: 25px;
+        text-align: center;
+        padding: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 200;
+    }
+    #curriculum{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    a:link{
+        text-decoration: none;
+        color: #a02a2a;
+    }
+    a:visited{
+        text-decoration: none;
+        color: #a02a2a;
+    }
+    a:hover {
+        color: #a02a2a;
+    }
+    a:active{
+        color: #a02a2a;
+    }
+    .timeline{
+        display: flex;
+    }
+    .educacao{
+        margin: 15px;
+        text-align-last: left;
+        font-size: 25px;
+    }

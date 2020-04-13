@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+
+    <title>Contato</title>
+    <link rel="stylesheet" href="Contato.css">
+    <script src="Contato.js"></script>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header><a id="homelink" href="index.html">Desenvolvimento Web I</a></header>
+
+    <hr id="hrespecial">
+
+    <div id="botoes">
+        <nav class="btn-group">
+            <button type="button" class="button button1"><a href="Index.html">Index</a></button>
+            <button type="button" class="button button1"><a href="Aluno 1.html">Aluno 1</a></button>
+            <button type="button" class="button button1"><a href="Aluno 2.html">Aluno 2</a></button>
+            <button type="button" class="button button1"><a href="Aluno 3.html">Aluno 3</a></button>
+            <button type="button" class="button button1"><a href="Contato.html">Contato</a></button>
+            <button type="button" class="button button1"><a href="Creditos.html">Créditos</a></button>
+            
+        </nav>
+    </div>
+    <hr class="horizontal">
+
+    <section id="page">
+        <form id="contact" method="POST">
+
+            <!--Conteúdo retirado das Primeiras aulas label/placeholder/fieldset-->
+            <fieldset>
+                <legend id="label">Formulário para Contato</legend></br>
+
+                <label class="" for="txtnome">Nome:</label>
+                <input type="text" name="txtnome" id="txtnome" placeholder="Digite seu nome"><br>
+
+                <label for="txtemail">E-mail:</label>
+                <input type="email" name="txtemail" id="txtemail" placeholder="Digite seu e-mail"></br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="telefone" placeholder="Digite seu número"></br>
+
+                <label for="prioridade">Propriedade:</label>
+
+                <div class="select-style">
+                    <select id="prioridade" name="prioridade" id="prioridade">
+                        <option value="high">Alta</option>
+                        <option value="mid">Média</option>
+                        <option value="low">Baixa</option>
+                    </select></br>
+                </div>
+                </div>
+
+                <label for="msgm">Mensagem:</label></br>
+                <textarea name="msgm" id="msgm" rows="5" cols="50" placeholder="Escreva sua mensagem"></textarea></br>
+
+                <input id="enviar" type="submit" value="Enviar" onclick="display();">
+              
+            </fieldset>
+        </form>
+        
+    </section>
+    
+    <hr class="horizontal">
+    <footer> &copy; Desenvolvido por Raphael Floriano - Rafael Henrique - Luiz Felipe</footer>
+</body>
+</html>

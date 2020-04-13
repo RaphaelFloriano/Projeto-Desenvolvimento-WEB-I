@@ -1,0 +1,102 @@
+html{
+    zoom:0.9;
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+header{
+    font-size: 50px;
+    text-align: left;
+    color: rgb(252, 252, 252);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 40px 30px 20px 30px;
+}
+footer{
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+.button{    
+    background-color: rgb(88, 1, 1);
+    border:none;
+    color: rgb(87, 1, 1);
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    outline: none;
+}    
+.button1{
+    background-color: rgb(134, 0, 0);
+    color:rgb(253,253,253);
+    border: 2px solid rgb(75, 0, 0);
+    border-radius: 10px;
+}
+.button1:hover{
+    background-color:rgb(75, 0, 0);
+    color:rgb(255, 255, 255);
+}
+#div_botao{
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid rgb(88, 1, 1);
+}
+#alunos{
+    display: flex;
+    padding: 30px;
+    color: black
+}
+.coluna{
+    padding: 10px;
+    flex:25;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+hr{
+    border: 1px solid rgb(151, 10, 0);
+    margin: 0px 30px 0px 30px;
+}
+.horizontal{
+    border: 1px solid rgba(139, 0, 0, 0.733);
+    margin: 0px 30px 0px 30px;
+}
+footer{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+body{
+    background: rgb(90, 0, 0);
+}
+.Menu{
+    font-weight: 3000;
+}
+.Aluno{
+    font-weight: 100;
+}
+.Descricao{
+    font-weight: 100;
+}
+a:link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+a:active{
+    text-decoration: underline;
+    color: wheat;
+}
